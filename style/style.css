@@ -16,8 +16,6 @@ body {
     max-width: 1440px;
     display: flex;
     gap: 900px;
-    /* border: 2px solid red; */
-
 }
 
 .navbar h1 {
@@ -37,27 +35,23 @@ body {
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
-
 }
 
 .banner-section-container {
     max-width: 1440px;
     height: 620px;
     background-image: url(../assets/Hero-bg.png);
-    /* border: 2px solid red; */
 }
 
 .banner-content {
     width: 998px;
     height: 582px;
     margin: 0 auto;
-    /* border: 2px solid red; */
 }
 
 .banner-image-container {
     width: 998px;
     height: 45%;
-    /* border: 2px solid red; */
 }
 
 .banner-image-container img {
@@ -369,13 +363,11 @@ iframe {
     width: 1140px;
     height: 520px;
     margin: 0 auto;
-    /* border: 2px solid blue; */
 }
 
 .current-target-text-section {
     margin: 0 auto;
     text-align: center;
-    /* border: 2px solid red; */
 }
 
 .current-target-text-section h2 {
@@ -438,7 +430,7 @@ iframe {
     width: 364px;
     height: 299px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+    background: rgba(0, 76, 232, 0.05);
 }
 
 .card-two-content {
@@ -467,7 +459,7 @@ iframe {
     width: 364px;
     height: 299px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 223, 0, 0.05);
 }
 
 .card-three-content {
@@ -486,4 +478,76 @@ iframe {
 
 .card-three-content p {
     margin-bottom: 20px;
+}
+
+/* Support-Banner */
+
+.support-banner {
+    background-position: center;
+    width: 1140px;
+    height: 333px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.support-banner-content {
+    width: 1044px;
+    height: 285px;
+    margin: 0 auto;
+    
+}
+
+.support-banner-content-text {
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.support-banner-content-text h2 {
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.support-banner-content-text p {
+    padding-top: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.input-field {
+    margin: 70px auto;
+}
+
+.input-field input {
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+}
+
+.input-field button {
+    width: 120px;
+    height: 57px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
